@@ -3,7 +3,7 @@
 
     var bio = {
         controller: bioCtrl,
-        templateUrl: 'app/partials/bio.html'
+        templateUrl: 'app/components/bio/bio.html'
     }
 
     angular

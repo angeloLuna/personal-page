@@ -3,7 +3,7 @@
 
     var footer= {
         controller: footerCtrl,
-        templateUrl: 'app/partials/footer.html'
+        templateUrl: 'app/components/footer/footer.html'
     }
 
     angular
