@@ -4,6 +4,7 @@ $bg-color-accent: #64ffda;
 $bg-color-dark: #00796b;
 $text-color-black: #444;
 $white-bg: #EDEEEF;
+$non-color: #FFFFFF;
 
 // Header
 nav ul a,
@@ -105,3 +106,13 @@ footer {
     }
 }
 
+// Bio-edu
+.bio-edu {
+  background-color: $non-color;
+  div {
+    margin-top: 20px;
+    .responsive-img {
+      margin-top: -50px;
+    }
+  }
+}
