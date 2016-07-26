@@ -3,7 +3,7 @@
 
     var navbar = {
         controller: navCtlr,
-        templateUrl: "app/partials/navbar.html"
+        templateUrl: "app/components/navbar/navbar.html"
 }
     angular
         .module('personal')
