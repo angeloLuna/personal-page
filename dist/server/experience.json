@@ -1,0 +1,32 @@
+[
+    {
+        "name": "dev.f",
+        "img": "img/devf.png",
+        "description": "Cinta Negra front-end, Cinta roja y UX Bootcamp"
+    },
+    {
+        "name": "UNAM",
+        "img": "img/unam.png",
+        "description": "Graduado de la carrera de Informática en la Facultad de Contaduría y Administración"
+    },
+    {
+        "name": "GDG",
+        "img": "img/gdg.jpg",
+        "description": "Colaborador del GDG UNAM, Polymer y Angular México"
+    },
+    {
+        "name": "Platzi",
+        "img": "img/platzi.png",
+        "description": "Curso de desarrollo web, Git y Github y Android"
+    },
+    {
+        "name": "Hacks-on",
+        "img": "img/hackson.jpg",
+        "description": "Co-fundador de la comunidad Hacks-on en la FCA, con más de 350 miembros"
+    },
+    {
+        "name": "dev.f",
+        "img": "img/devf.png",
+        "description": "Sensei honorario en Cinta Negra front-end"
+    }
+]

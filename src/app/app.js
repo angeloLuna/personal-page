@@ -2,6 +2,6 @@
     'use strict'
 
     angular
-        .module('personal',['ngRoute']);
+        .module('personal',['ngRoute', 'ngResource']);
 
 })();
