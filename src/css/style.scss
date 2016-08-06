@@ -109,10 +109,18 @@ footer {
 // Bio-edu
 .bio-edu {
   background-color: $non-color;
-  div {
-    margin-top: 20px;
-    .responsive-img {
-      margin-top: -50px;
+  .bio-exp {
+    &>div {
+      height: 340px;
+      .description {
+        margin-top: -10px;
+        h4 {
+          margin-bottom: 0px;
+        }
+      }
+      .responsive-img {
+        max-height: 120px;
+      }
     }
   }
 }

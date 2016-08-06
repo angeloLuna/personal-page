@@ -24,13 +24,13 @@
 <div class="bio-edu">
   <h1 class="center">hola</h1>
   <div class="container row">
-    <div class="col s6 m4 l3" ng-repeat="elem in $ctrl.exp">
+    <div class="bio-exp col s6 m4 l4" ng-repeat="elem in $ctrl.exp">
       <div class="card-panel grey lighten-5 z-depth-1">
         <div class="row">
-          <div class="col s12 m12 l12">
+          <div class="col s8 m18 l8">
             <img ng-src="{{elem.img}}" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
           </div>
-          <div class="col s12 m12 l12">
+          <div class=" description col s12 m12 l12">
             <h4>{{elem.name}}</h4>
             <span class="black-text">
               {{elem.description}}
