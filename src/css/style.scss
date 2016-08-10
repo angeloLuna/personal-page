@@ -70,26 +70,6 @@ nav .brand-logo {
   font-size: inherit;
 }
 
-// Footer
-footer.page-footer {
-  margin: 0;
-}
-
-footer {
-    a {
-        color: white;
-    }
-    &.page-footer {
-        background-color: $bg-color;
-    }
-}
-
-.social {
-    img {
-        height: 20px;
-        width: 20px;
-    }
-}
 
 // BIO
 
@@ -137,3 +117,44 @@ footer {
   }
 }
 
+// Footer
+footer.page-footer {
+  margin: 0;
+}
+
+footer {
+    a {
+        color: white;
+    }
+    &.page-footer {
+        background-color: $bg-color;
+    }
+}
+
+.social {
+    img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.bot-menu {
+  li {
+    a {
+      margin-top: 20px;
+      font-size: 1.5em;
+    }
+    
+  }
+}
+@media only screen and (max-width : 600px) {
+  .bot-menu {
+    li {
+      a{
+        font-size: 1.5em;
+        margin-top: 20px;
+      }
+    }
+    
+  }
+}
