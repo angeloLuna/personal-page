@@ -8,7 +8,7 @@
         function routes($routeProvider) {
             $routeProvider
                 .when('/',{
-                    template:'<h1>Inicio</h1>'
+                    template:'<home-page></home-page>'
                 })
                 .when('/bio',{
                     template:'<bio-tag></bio-tag>'
